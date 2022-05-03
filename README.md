@@ -13,6 +13,6 @@ Each channel can be muted with a toggle button.
 A lower section controls the playback with two buttons you can play and stop and a loop toogle which can be toggled on and off,
 as well as a cursor with timer to show the current time playing with the playing position in real time.
 
-Framework udes - SwiftUI
+Framework used - SwiftUI
 
 Tested on iPhone 13 Pro
