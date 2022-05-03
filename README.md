@@ -14,4 +14,5 @@ A lower section controls the playback with two buttons you can play and stop and
 as well as a cursor with timer to show the current time playing with the playing position in real time.
 
 Framework udes - SwiftUI
+
 Tested on iPhone 13 Pro
