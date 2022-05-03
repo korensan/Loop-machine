@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831C1869281E915800968318 /* Loop_machineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C1868281E915800968318 /* Loop_machineApp.swift */; };
+		831C186B281E915800968318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C186A281E915800968318 /* ContentView.swift */; };
+		831C186D281E915A00968318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831C186C281E915A00968318 /* Assets.xcassets */; };
+		831C1870281E915A00968318 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831C186F281E915A00968318 /* Preview Assets.xcassets */; };
+		831C1880281EA55100968318 /* tambourine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C1877281EA55100968318 /* tambourine.mp3 */; };
+		831C1881281EA55100968318 /* HIGH VOC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C1878281EA55100968318 /* HIGH VOC.mp3 */; };
+		831C1882281EA55100968318 /* JIBRISH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C1879281EA55100968318 /* JIBRISH.mp3 */; };
+		831C1883281EA55100968318 /* B VOC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C187A281EA55100968318 /* B VOC.mp3 */; };
+		831C1884281EA55100968318 /* HE HE VOC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C187B281EA55100968318 /* HE HE VOC.mp3 */; };
+		831C1885281EA55100968318 /* LEAD 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C187C281EA55100968318 /* LEAD 1.mp3 */; };
+		831C1886281EA55100968318 /* DRUMS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C187D281EA55100968318 /* DRUMS.mp3 */; };
+		831C1887281EA55100968318 /* ALL TRACK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C187E281EA55100968318 /* ALL TRACK.mp3 */; };
+		831C1888281EA55100968318 /* UUHO VOC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831C187F281EA55100968318 /* UUHO VOC.mp3 */; };
+		831C188A281EAA7C00968318 /* loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C1889281EAA7C00968318 /* loops.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831C1865281E915800968318 /* Loop machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		831C1868281E915800968318 /* Loop_machineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop_machineApp.swift; sourceTree = "<group>"; };
+		831C186A281E915800968318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		831C186C281E915A00968318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		831C186F281E915A00968318 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		831C1877281EA55100968318 /* tambourine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tambourine.mp3; sourceTree = "<group>"; };
+		831C1878281EA55100968318 /* HIGH VOC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HIGH VOC.mp3"; sourceTree = "<group>"; };
+		831C1879281EA55100968318 /* JIBRISH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JIBRISH.mp3; sourceTree = "<group>"; };
+		831C187A281EA55100968318 /* B VOC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "B VOC.mp3"; sourceTree = "<group>"; };
+		831C187B281EA55100968318 /* HE HE VOC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HE HE VOC.mp3"; sourceTree = "<group>"; };
+		831C187C281EA55100968318 /* LEAD 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "LEAD 1.mp3"; sourceTree = "<group>"; };
+		831C187D281EA55100968318 /* DRUMS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DRUMS.mp3; sourceTree = "<group>"; };
+		831C187E281EA55100968318 /* ALL TRACK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ALL TRACK.mp3"; sourceTree = "<group>"; };
+		831C187F281EA55100968318 /* UUHO VOC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "UUHO VOC.mp3"; sourceTree = "<group>"; };
+		831C1889281EAA7C00968318 /* loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loops.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831C1862281E915800968318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831C185C281E915700968318 = {
+			isa = PBXGroup;
+			children = (
+				831C1867281E915800968318 /* Loop machine */,
+				831C1866281E915800968318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831C1866281E915800968318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831C1865281E915800968318 /* Loop machine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831C1867281E915800968318 /* Loop machine */ = {
+			isa = PBXGroup;
+			children = (
+				831C1876281EA4AA00968318 /* Sounds */,
+				831C1868281E915800968318 /* Loop_machineApp.swift */,
+				831C1889281EAA7C00968318 /* loops.swift */,
+				831C186A281E915800968318 /* ContentView.swift */,
+				831C186C281E915A00968318 /* Assets.xcassets */,
+				831C186E281E915A00968318 /* Preview Content */,
+			);
+			path = "Loop machine";
+			sourceTree = "<group>";
+		};
+		831C186E281E915A00968318 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				831C186F281E915A00968318 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		831C1876281EA4AA00968318 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				831C1877281EA55100968318 /* tambourine.mp3 */,
+				831C187E281EA55100968318 /* ALL TRACK.mp3 */,
+				831C187A281EA55100968318 /* B VOC.mp3 */,
+				831C187D281EA55100968318 /* DRUMS.mp3 */,
+				831C187B281EA55100968318 /* HE HE VOC.mp3 */,
+				831C1878281EA55100968318 /* HIGH VOC.mp3 */,
+				831C1879281EA55100968318 /* JIBRISH.mp3 */,
+				831C187C281EA55100968318 /* LEAD 1.mp3 */,
+				831C187F281EA55100968318 /* UUHO VOC.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831C1864281E915800968318 /* Loop machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831C1873281E915A00968318 /* Build configuration list for PBXNativeTarget "Loop machine" */;
+			buildPhases = (
+				831C1861281E915800968318 /* Sources */,
+				831C1862281E915800968318 /* Frameworks */,
+				831C1863281E915800968318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loop machine";
+			productName = "Loop machine";
+			productReference = 831C1865281E915800968318 /* Loop machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831C185D281E915700968318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					831C1864281E915800968318 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 831C1860281E915700968318 /* Build configuration list for PBXProject "Loop machine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831C185C281E915700968318;
+			productRefGroup = 831C1866281E915800968318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831C1864281E915800968318 /* Loop machine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831C1863281E915800968318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831C1888281EA55100968318 /* UUHO VOC.mp3 in Resources */,
+				831C1882281EA55100968318 /* JIBRISH.mp3 in Resources */,
+				831C1870281E915A00968318 /* Preview Assets.xcassets in Resources */,
+				831C186D281E915A00968318 /* Assets.xcassets in Resources */,
+				831C1886281EA55100968318 /* DRUMS.mp3 in Resources */,
+				831C1883281EA55100968318 /* B VOC.mp3 in Resources */,
+				831C1884281EA55100968318 /* HE HE VOC.mp3 in Resources */,
+				831C1881281EA55100968318 /* HIGH VOC.mp3 in Resources */,
+				831C1887281EA55100968318 /* ALL TRACK.mp3 in Resources */,
+				831C1880281EA55100968318 /* tambourine.mp3 in Resources */,
+				831C1885281EA55100968318 /* LEAD 1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831C1861281E915800968318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831C186B281E915800968318 /* ContentView.swift in Sources */,
+				831C1869281E915800968318 /* Loop_machineApp.swift in Sources */,
+				831C188A281EAA7C00968318 /* loops.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		831C1871281E915A00968318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		831C1872281E915A00968318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831C1874281E915A00968318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Loop machine/Preview Content\"";
+				DEVELOPMENT_TEAM = CK64262543;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koren.Loop-machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		831C1875281E915A00968318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Loop machine/Preview Content\"";
+				DEVELOPMENT_TEAM = CK64262543;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.koren.Loop-machine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831C1860281E915700968318 /* Build configuration list for PBXProject "Loop machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831C1871281E915A00968318 /* Debug */,
+				831C1872281E915A00968318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831C1873281E915A00968318 /* Build configuration list for PBXNativeTarget "Loop machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831C1874281E915A00968318 /* Debug */,
+				831C1875281E915A00968318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831C185D281E915700968318 /* Project object */;
+}
